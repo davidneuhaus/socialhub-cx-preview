@@ -521,3 +521,12 @@ main h2+.table-wrap,main h2+.sources,main .section__head+.table-wrap{margin-top:
   .hero .channels--hero-below-cta-mobile{order:2}
   .hero .channels--hero-below-cta-mobile ~ .cta-row ~ *{order:3}
 }
+/* hero A2 (20.10. 15:19): home hero image column ~55% on desktop; mobile unchanged */
+@media (min-width:1024px){.hero__grid:has(img.scene[src*="scenes/hero-"]){grid-template-columns:minmax(0,45fr) minmax(0,55fr)}}
+/* hero A2 desktop fold (20.10. 15:21): home hero only, >=1024px — H1 max 3 lines, tighter vertical rhythm */
+@media (min-width:1024px){
+  .hero:has(img.scene[src*="scenes/hero-"]){padding-block:3.5rem 5rem}
+  .hero:has(img.scene[src*="scenes/hero-"]) h1{font-size:2.75rem;line-height:1.08;margin-top:.625rem}
+  .hero:has(img.scene[src*="scenes/hero-"]) .lead{margin-top:1.125rem}
+  .hero:has(img.scene[src*="scenes/hero-"]) .cta-row{margin-top:1.75rem}
+}
