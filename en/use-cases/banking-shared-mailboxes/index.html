@@ -17,8 +17,13 @@
   <meta property="og:url" content="https://cx.socialhub.io/en/use-cases/banking-shared-mailboxes/">
   <meta property="og:locale" content="en_GB">
   <meta property="og:locale:alternate" content="de_DE">
-  <!-- TODO asset: og:image (1200x630) -->
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://cx.socialhub.io/assets/og/email-rule-team-assignment-og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Illustration: An incoming email is automatically assigned to the right team in the inbox by a rule.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://cx.socialhub.io/assets/og/email-rule-team-assignment-og.png">
+  <meta name="twitter:image:alt" content="Illustration: An incoming email is automatically assigned to the right team in the inbox by a rule.">
   <meta name="theme-color" content="#1a1a1a">
   <link rel="icon" href="../../../assets/brand/favicon.ico" sizes="any">
   <link rel="preload" href="../../../assets/fonts/outfit-latin.woff2" as="font" type="font/woff2" crossorigin>
@@ -34,6 +39,12 @@
    "name": "SocialHub",
    "legalName": "maloon GmbH",
    "url": "https://socialhub.io/",
+   "logo": {
+    "@type": "ImageObject",
+    "url": "https://cx.socialhub.io/assets/brand/socialhub-logo-ink.png",
+    "width": 600,
+    "height": 106
+   },
    "email": "hallo@socialhub.io",
    "vatID": "DE266074439",
    "address": {
@@ -155,7 +166,7 @@
 </header>
 <main id="main" tabindex="-1">
 <nav class="breadcrumb container" aria-label="Breadcrumb"><ol><li><a href="../../">Home</a></li><li><a href="../">Use cases</a></li><li><a href="../banking-insurance/">Use cases: Banking &amp; insurance</a></li><li><span aria-current="page">Routing service mailboxes by department</span></li></ol></nav>
-<div class="llm-box container"><button type="button" class="llm-btn" data-llm-copy>Copy for LLM</button><span class="llm-status" role="status" aria-live="polite" data-done="Summary copied."></span><template class="llm-summary">Title: Service mailboxes by department | SocialHub CX
+<section class="hero" data-hero><div class="container hero__grid"><div><p class="eyebrow">Routing service mailboxes by department</p><h1>Routing service mailboxes by department</h1><p class="lead">SocialHub CX routes emails from several service mailboxes to departments such as account, card or claims via keyword rules and measures the first-response target.</p><div class="cta-row"><a class="btn" href="../../demo/?segment=banken-versicherungen">Request a demo</a></div><div class="llm-box llm-box--hero"><button type="button" class="llm-btn" data-llm-copy>Copy for LLM</button><span class="llm-status" role="status" aria-live="polite" data-done="Summary copied."></span><template class="llm-summary">Title: Service mailboxes by department | SocialHub CX
 Definition: SocialHub CX ist eine Kundenservice-Software der SocialHub (Maloon GmbH, Ingolstadt), mit der Service-Teams Anfragen aus Social Media und E-Mail als Tickets in einem gemeinsamen Workspace bearbeiten – unterstützt von einem KI-Co-Pilot mit Quellenangabe und gehostet in Deutschland.
 Key facts:
 - German provider
@@ -164,8 +175,7 @@ Key facts:
 - Hosting provider with BSI C5 attestation
 - AI via Microsoft Azure with EU endpoint
 - SocialHub CX does not train AI models on customer data.
-URL: https://cx.socialhub.io/en/use-cases/banking-shared-mailboxes/</template></div>
-<section class="hero hero--simple" data-hero><div class="container"><p class="eyebrow">Routing service mailboxes by department</p><h1>Routing service mailboxes by department</h1><p class="lead">SocialHub CX routes emails from several service mailboxes to departments such as account, card or claims via keyword rules and measures the first-response target.</p><div class="cta-row"><a class="btn" href="../../demo/?segment=banken-versicherungen">Request a demo</a></div></div></section>
+URL: https://cx.socialhub.io/en/use-cases/banking-shared-mailboxes/</template></div></div><div><img class="scene" src="../../../assets/scenes/email-rule-team-assignment.svg" alt="Illustration: An incoming email is automatically assigned to the right team in the inbox by a rule." width="960" height="640" loading="eager" fetchpriority="high" decoding="async"></div></div></section>
 <section class="section" id="szenario" aria-labelledby="szenario-h"><div class="container"><div class="prose-block"><h2 id="szenario-h">Starting point</h2><p>Several shared mailboxes – for account, card and claims, for instance – are handled by different teams. Emails often land in the wrong mailbox and are forwarded manually.</p></div></div></section>
 <section class="section section--tint" id="ablauf" aria-labelledby="ablauf-h"><div class="container"><div class="prose-block"><h2 id="ablauf-h">How it works in SocialHub CX</h2><ol><li>Each mailbox is connected via Microsoft (OAuth), Gmail or IMAP/SMTP, with its own signature and acknowledgement.</li><li>Keyword rules per mailbox assign emails to the right team, then person or round robin.</li><li>Staff set to “Away” receive no new tickets.</li><li>A first-response target in business hours applies to new tickets.</li><li>The dashboard shows on-time and late first responses per team and person.</li></ol></div></div></section>
 <section class="section" id="ergebnis" aria-labelledby="ergebnis-h"><div class="container"><div class="prose-block"><h2 id="ergebnis-h">Outcome</h2><p>Emails reach the right department without manual forwarding, and management sees whether first responses are on target.</p></div></div></section>

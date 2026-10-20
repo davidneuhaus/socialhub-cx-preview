@@ -308,3 +308,177 @@ ul{margin:0;padding:0}
 .hp{position:absolute!important;left:-9999px;width:1px;height:1px;overflow:hidden}
 .form-status[data-state="error"]{color:var(--c-error);font-weight:600}
 .form-status[data-state="ok"]{color:var(--c-success);font-weight:600}
+
+/* =====================================================================
+   Typography & spacing pass (20.10.2026) – CSS only, no wording changes.
+   Tokens: body 16px mobile / 18px >=1024 (lh 1.6) · section 3.75rem / 5rem (768) / 7rem (1024)
+   box padding 1.25rem / 1.5rem (640) / 2rem (1024) · measure 70ch · list gap .6em
+   Yellow stays reserved for the primary CTA (no new lemon areas).
+   ===================================================================== */
+:root{
+  --text-body:1rem; --lh-body:1.6; --measure:70ch;
+  --section-y:3.75rem; --box-pad:1.25rem; --box-gap:.875rem; --list-gap:.6em;
+  --sticky-h:4.5rem;
+  --h1:2.125rem; --h2:1.75rem; --h3:1.25rem; --lead:1.0625rem;
+}
+@media (min-width:640px){:root{--box-pad:1.5rem;--h1:2.75rem;--h2:2.125rem}}
+@media (min-width:768px){:root{--section-y:5rem;--lead:1.1875rem}}
+@media (min-width:1024px){:root{--text-body:1.125rem;--section-y:7rem;--box-pad:2rem;--box-gap:1rem;--h1:3.5rem;--h2:2.375rem;--h3:1.375rem;--lead:1.3125rem}}
+
+body{font-size:var(--text-body);line-height:var(--lh-body)}
+h1{font-size:var(--h1);line-height:1.08}
+h2{font-size:var(--h2);line-height:1.15}
+h3{font-size:var(--h3);line-height:1.25}
+.lead{font-size:var(--lead);line-height:1.55;max-width:var(--measure)}
+.eyebrow{line-height:1.4}
+.eyebrow+h1,.eyebrow+h2{margin-top:.75rem}
+.hero h1{margin-top:.75rem}
+.section__head{max-width:var(--measure);margin-bottom:2.5rem}
+.section__head h2+p,.section__head p+p{margin-top:var(--box-gap)}
+@media (min-width:1024px){.section__head{margin-bottom:3rem}}
+
+/* headline -> text spacing inside content blocks */
+.prose-block>h2+*,.split h2+*,.feature h2+*,.feature h3+*{margin-top:var(--box-gap)}
+.prose-block>p+p,.prose-block>p+ul,.prose-block>p+ol,.prose-block>ul+p,.prose-block>ol+p{margin-top:1em}
+.prose-block,.prose{max-width:var(--measure)}
+.prose h2{margin-top:2.75rem}
+.prose h2+p,.prose h2+address,.prose h2+ul{margin-top:var(--box-gap)}
+
+/* lists: readable markers and ~0.6em spacing (only lists without own component class) */
+:where(main) :where(ul:not([class]),ol:not([class])){padding-left:1.4em}
+:where(main) :where(ul:not([class]),ol:not([class]))>li+li{margin-top:var(--list-gap)}
+:where(main) :where(ul:not([class]),ol:not([class]))>li::marker{font-size:1em;color:var(--c-ink)}
+:where(main) :where(ol:not([class]))>li{padding-left:.25em}
+:where(main) :where(ol:not([class]))>li::marker{font-weight:650}
+.feature ul{padding-left:0}
+.feature li{margin-top:var(--list-gap);padding-left:1.4rem}
+.feature li::before{top:.6em}
+
+/* boxes & cards */
+.card{padding:var(--box-pad);gap:var(--box-gap)}
+.card h3,.card__h{font-size:var(--h3);margin-bottom:0}
+.kit,.note{padding:var(--box-pad);border-radius:var(--r-2xl)}
+.note{font-size:var(--text-sm);line-height:1.55}
+.kit h2{font-size:var(--text-2xl);margin-bottom:var(--box-gap)}
+.lead-form{padding:var(--box-pad)}
+
+/* "Kurz gesagt" / summary box (all comparison and summary pages) */
+.tldr{padding:var(--box-pad);padding-left:calc(var(--box-pad) + 4px);border-radius:var(--r-2xl);border:1px solid var(--c-line);border-left:4px solid var(--c-ink);background:var(--c-white);max-width:52rem}
+.section--tint .tldr{background:var(--c-white)}
+.tldr h2{font-size:var(--text-2xl);line-height:1.2;margin:0 0 var(--box-gap)}
+@media (min-width:1024px){.tldr h2{font-size:1.75rem}}
+.tldr ul,.tldr ol{list-style:none;padding:0;margin:0}
+.tldr li{position:relative;padding-left:1.5rem;line-height:1.6;max-width:var(--measure)}
+.tldr li+li{margin-top:.75em}
+.tldr li::before{content:"";position:absolute;left:.15rem;top:.62em;width:.45rem;height:.45rem;border-radius:50%;background:var(--c-ink)}
+
+/* FAQ (accordion) as boxed items */
+.faq{max-width:52rem;display:grid;gap:.75rem}
+.faq details,.faq details:last-child{border:1px solid var(--c-line);border-radius:var(--r-2xl);background:var(--c-white);padding-inline:var(--box-pad)}
+.faq summary{padding:1.25rem 2.25rem 1.25rem 0;font-size:var(--lead);line-height:1.4}
+.faq summary::after{right:0}
+.faq .faq__a{padding:0 0 var(--box-pad);max-width:var(--measure);color:var(--c-muted)}
+@media (min-width:1024px){.faq summary{padding-block:1.5rem}}
+
+/* Q&A hub items */
+.qa{padding:var(--box-pad);border:1px solid var(--c-line);border-radius:var(--r-2xl);background:var(--c-white);margin-top:1rem}
+.prose-block>h2+.qa{margin-top:1.5rem}
+.qa h3{font-size:var(--h3);line-height:1.3}
+.qa h3+p{margin-top:var(--box-gap);max-width:var(--measure)}
+
+/* fact cards (/fakten/) */
+.ls-sec.fact{padding:var(--box-pad);border:1px solid var(--c-line);border-radius:var(--r-2xl);background:var(--c-white);margin-top:1.25rem}
+.ls-sec.fact h2{font-size:var(--text-2xl);margin:0 0 var(--box-gap)}
+.ls-sec.fact p+p{margin-top:.75rem}
+.prose>nav ul{margin-top:0}
+
+/* comparison tables */
+.compare{font-size:var(--text-base);line-height:1.5;min-width:40rem}
+.compare caption{padding:1.25rem 1.5rem;font-size:var(--text-lg)}
+.compare th,.compare td{padding:1rem 1.25rem}
+@media (min-width:1024px){.compare th,.compare td{padding:1.15rem 1.5rem}}
+@media (max-width:639px){.compare{font-size:.9375rem;min-width:34rem}.compare th,.compare td{padding:.85rem 1rem}}
+.sources{font-size:var(--text-sm);line-height:1.55}
+
+/* trust bullets / closing */
+.trust-bullets{gap:.5rem}
+.closing{padding:2.25rem var(--box-pad)}
+@media (min-width:768px){.closing{padding:3.5rem}}
+@media (min-width:1024px){.closing{padding:4.5rem}}
+.closing h2+.lead,.closing h2+p{margin-top:var(--box-gap)}
+.closing .lead{max-width:var(--measure)}
+
+/* footer: long unbreakable link labels must not overflow at 390px */
+.site-footer a{overflow-wrap:anywhere}
+.site-footer{padding-block:3.5rem}
+@media (min-width:768px){.site-footer{padding-block:4.5rem}}
+
+/* hero: generous on desktop, tight on mobile so the primary CTA stays above the fold (390x844) */
+.hero{padding-block:1.5rem 2.75rem}
+.hero .lead{margin-top:1rem}
+.hero .cta-row{margin-top:1.5rem}
+.hero .channel-row{margin-top:.75rem;font-size:var(--text-sm);line-height:1.45}
+.hero--simple{padding-bottom:2rem}
+@media (max-width:639px){
+  .breadcrumb{padding-top:.75rem}
+  .llm-box{padding-top:.5rem}
+  .llm-btn{padding:.3rem .7rem}
+  .hero .lead{font-size:1rem;line-height:1.5}
+  .hero .cta-row{gap:.5rem}
+}
+@media (min-width:768px){.hero{padding-block:4.5rem 5.5rem}.hero--simple{padding-bottom:3.5rem}}
+@media (min-width:1024px){.hero{padding-block:5.5rem 7rem}.hero--simple{padding-block:4.5rem 4rem}.hero .lead{margin-top:1.5rem}.hero .cta-row{margin-top:2.25rem}}
+
+/* sticky mobile CTA must not cover the end of the page */
+@media (max-width:767px){
+  body:has(.mobile-cta){padding-bottom:calc(var(--sticky-h) + env(safe-area-inset-bottom,0px))}
+  .mobile-cta{min-height:var(--sticky-h);padding-bottom:calc(.75rem + env(safe-area-inset-bottom,0px))}
+}
+
+/* spacing pass – fixes after first review */
+.prose-block{max-width:none}
+.prose-block>p,.prose-block>ul,.prose-block>ol,.prose-block>h2,.prose-block>h3,.prose-block>.qa{max-width:var(--measure)}
+.prose-block>.qa{max-width:52rem}
+@media (max-width:1535px){.header-platform{display:none}}
+@media (min-width:1024px){.site-header__bar{flex-wrap:nowrap}.site-nav>ul{gap:1.25rem}}
+.container.prose-block{max-width:var(--container)}
+main ul:not([class]),main ol:not([class]){padding-left:1.4em}
+main ul:not([class])>li+li,main ol:not([class])>li+li{margin-top:var(--list-gap)}
+main .breadcrumb ol{padding:0}
+main .breadcrumb li+li{margin-top:0}
+main .feature ul{padding-left:0}
+main .tldr ul,main .tldr ol{padding:0}
+main .tldr li+li{margin-top:.75em}
+main .sources{padding-left:1.25em}
+main h2+.table-wrap,main h2+.sources,main .section__head+.table-wrap{margin-top:1.5rem}
+.compare tbody th{width:20%}
+.trust-bullets{font-size:var(--text-base)}
+.prose-block>p+.grid,.prose-block>h2+.grid,.prose-block>p+.faq,.prose-block>.lead+.grid{margin-top:2rem}
+@media (min-width:1024px){.btn{font-size:1rem;padding:.95rem 1.5rem}.btn--sm{font-size:var(--text-sm);padding:.62rem .95rem}}
+/* trust/info block next to forms: nested v1 sections render as stacked blocks inside one box */
+.kit .section,.kit .section--tint{padding:0;background:none}
+.kit .container{padding:0}
+.kit .section+.section{margin-top:1.75rem;padding-top:1.75rem;border-top:1px solid var(--c-line)}
+.kit h2{font-size:var(--text-xl);line-height:1.25}
+.kit .prose-block>h2+*{margin-top:.75rem}
+.kit ul:not([class])>li+li{margin-top:.5em}
+/* legal / facts pages: keep the container grid, constrain the text column instead */
+.container.prose{max-width:var(--container)}
+.container.prose>*{max-width:var(--measure)}
+.hero--simple+.section{padding-top:calc(var(--section-y) * .6)}
+.prose>nav+.fact{margin-top:2.5rem}
+/* footer trust chips are links: keep ink text on the white pill (was white on white) */
+.site-footer a.chip,.site-footer .chip{color:var(--c-ink);font-size:var(--text-sm)}
+.site-footer a.chip:hover{color:var(--c-ink)}
+.site-footer a{overflow-wrap:break-word}
+.prose>h1+*{margin-top:1.75rem}
+
+/* ---- scenes pass (20.10.2026): product illustration scenes, customer logos, llm chip below hero CTAs */
+.scene{display:block;width:100%;height:auto;border-radius:var(--r-2xl);box-shadow:var(--shadow-hero);background:#f1f1f1}
+.split .scene{box-shadow:0 8px 28px rgba(26,26,26,.10)}
+.hero__grid > div:last-child:has(.scene){min-width:0}
+.llm-box--hero{justify-content:flex-start;padding-top:1rem}
+.logo-strip--real{justify-content:center;gap:2rem 3rem;margin-top:1.5rem}
+.logo-strip--real li{display:flex;align-items:center}
+.logo-strip--real img{display:block;max-width:100%;height:auto}
+@media (max-width:639px){.logo-strip--real{gap:1.5rem 2rem}.logo-strip--real img{zoom:.85}}
