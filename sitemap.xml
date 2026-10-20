@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- MODE=domain; base URL https://cx.socialhub.io. Unapproved comparison pages are excluded (noindex). -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://cx.socialhub.io/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/funktionen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/funktionen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/features/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/funktionen/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/features/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/funktionen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/features/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/funktionen/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/funktionen/e-mail-ticketing/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/funktionen/e-mail-ticketing/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/features/email-ticketing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/funktionen/e-mail-ticketing/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/features/email-ticketing/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/funktionen/e-mail-ticketing/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/features/email-ticketing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/funktionen/e-mail-ticketing/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/funktionen/social-inbox/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/funktionen/social-inbox/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/features/social-inbox/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/funktionen/social-inbox/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/features/social-inbox/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/funktionen/social-inbox/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/features/social-inbox/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/funktionen/social-inbox/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/funktionen/ki-co-pilot/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/funktionen/ki-co-pilot/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/features/ai-copilot/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/funktionen/ki-co-pilot/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/features/ai-copilot/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/funktionen/ki-co-pilot/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/features/ai-copilot/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/funktionen/ki-co-pilot/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/funktionen/routing-teams/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/funktionen/routing-teams/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/features/routing-teams/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/funktionen/routing-teams/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/features/routing-teams/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/funktionen/routing-teams/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/features/routing-teams/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/funktionen/routing-teams/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/funktionen/auswertungen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/funktionen/auswertungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/features/analytics/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/funktionen/auswertungen/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/features/analytics/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/funktionen/auswertungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/features/analytics/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/funktionen/auswertungen/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/branchen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/branchen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/industries/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/branchen/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/industries/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/branchen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/industries/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/branchen/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/branchen/oepnv/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/branchen/oepnv/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/industries/public-transport/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/branchen/oepnv/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/industries/public-transport/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/branchen/oepnv/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/industries/public-transport/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/branchen/oepnv/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/branchen/handel-loyalty/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/branchen/handel-loyalty/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/industries/retail-loyalty/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/branchen/handel-loyalty/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/industries/retail-loyalty/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/branchen/handel-loyalty/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/industries/retail-loyalty/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/branchen/handel-loyalty/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/branchen/banken-versicherungen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/branchen/banken-versicherungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/industries/banking-insurance/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/branchen/banken-versicherungen/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/industries/banking-insurance/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/branchen/banken-versicherungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/industries/banking-insurance/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/branchen/banken-versicherungen/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/branchen/verwaltung/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/branchen/verwaltung/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/industries/public-sector/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/branchen/verwaltung/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/industries/public-sector/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/branchen/verwaltung/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/industries/public-sector/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/branchen/verwaltung/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/branchen/stadtwerke/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/branchen/stadtwerke/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/industries/utilities/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/branchen/stadtwerke/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/industries/utilities/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/branchen/stadtwerke/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/industries/utilities/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/branchen/stadtwerke/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/leistungsbeschreibung/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/leistungsbeschreibung/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/service-description/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/leistungsbeschreibung/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/service-description/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/leistungsbeschreibung/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/service-description/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/leistungsbeschreibung/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/anwendungsfaelle/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/use-cases/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/anwendungsfaelle/oepnv/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/oepnv/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/public-transport/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/oepnv/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/use-cases/public-transport/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/oepnv/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/public-transport/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/oepnv/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/anwendungsfaelle/handel-loyalty/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/handel-loyalty/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/retail-loyalty/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/handel-loyalty/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/use-cases/retail-loyalty/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/handel-loyalty/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/retail-loyalty/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/handel-loyalty/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/anwendungsfaelle/banken-versicherungen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/banken-versicherungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/banking-insurance/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/banken-versicherungen/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/use-cases/banking-insurance/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/banken-versicherungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/banking-insurance/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/banken-versicherungen/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/anwendungsfaelle/verwaltung/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/verwaltung/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/public-sector/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/verwaltung/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/use-cases/public-sector/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/verwaltung/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/public-sector/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/verwaltung/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/anwendungsfaelle/stadtwerke/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/stadtwerke/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/utilities/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/stadtwerke/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/use-cases/utilities/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/stadtwerke/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/utilities/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/stadtwerke/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/fragen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/fragen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/questions/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/fragen/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/questions/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/fragen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/questions/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/fragen/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/fakten/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/fakten/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/facts/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/fakten/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/facts/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/fakten/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/facts/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/fakten/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/ai-instructions/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/ai-instructions/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/ai-instructions/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/ai-instructions/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/ai-instructions/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/ai-instructions/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/ai-instructions/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/ai-instructions/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/pilot/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/pilot/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/pilot/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/pilot/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/pilot/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/pilot/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/pilot/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/pilot/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/angebot/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/angebot/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/quote/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/angebot/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/quote/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/angebot/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/quote/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/angebot/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/sicherheit-datenschutz/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/sicherheit-datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/security-privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/sicherheit-datenschutz/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/security-privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/sicherheit-datenschutz/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/security-privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/sicherheit-datenschutz/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/unterlagen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/unterlagen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/procurement-pack/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/unterlagen/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/procurement-pack/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/unterlagen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/procurement-pack/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/unterlagen/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/faq/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/faq/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/faq/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/faq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/faq/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/demo/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/demo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/demo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/demo/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/demo/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/demo/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/demo/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/demo/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/kontakt/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/kontakt/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/kontakt/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/kontakt/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/anwendungsfaelle/oepnv-stoerungsmeldungen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/oepnv-stoerungsmeldungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/public-transport-disruptions/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/oepnv-stoerungsmeldungen/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/use-cases/public-transport-disruptions/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/oepnv-stoerungsmeldungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/public-transport-disruptions/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/oepnv-stoerungsmeldungen/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/anwendungsfaelle/oepnv-abo-erstattung/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/oepnv-abo-erstattung/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/public-transport-subscriptions-refunds/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/oepnv-abo-erstattung/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/use-cases/public-transport-subscriptions-refunds/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/oepnv-abo-erstattung/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/public-transport-subscriptions-refunds/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/oepnv-abo-erstattung/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/anwendungsfaelle/oepnv-lob-beschwerde/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/oepnv-lob-beschwerde/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/public-transport-feedback-routing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/oepnv-lob-beschwerde/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/use-cases/public-transport-feedback-routing/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/oepnv-lob-beschwerde/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/public-transport-feedback-routing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/oepnv-lob-beschwerde/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/anwendungsfaelle/handel-aktionsspitzen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/handel-aktionsspitzen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/retail-campaign-peaks/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/handel-aktionsspitzen/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/use-cases/retail-campaign-peaks/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/handel-aktionsspitzen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/retail-campaign-peaks/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/handel-aktionsspitzen/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/anwendungsfaelle/handel-bewertungen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/handel-bewertungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/retail-reviews-comments/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/handel-bewertungen/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/use-cases/retail-reviews-comments/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/handel-bewertungen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/retail-reviews-comments/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/handel-bewertungen/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/anwendungsfaelle/loyalty-programmfragen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/loyalty-programmfragen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/loyalty-programme-questions/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/loyalty-programmfragen/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/use-cases/loyalty-programme-questions/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/loyalty-programmfragen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/loyalty-programme-questions/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/loyalty-programmfragen/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/anwendungsfaelle/banken-social-service/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/banken-social-service/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/banking-social-service/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/banken-social-service/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/use-cases/banking-social-service/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/banken-social-service/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/banking-social-service/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/banken-social-service/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/anwendungsfaelle/banken-postfaecher/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/banken-postfaecher/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/banking-shared-mailboxes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/banken-postfaecher/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/use-cases/banking-shared-mailboxes/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/banken-postfaecher/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/banking-shared-mailboxes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/banken-postfaecher/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/anwendungsfaelle/verwaltung-buergeranfragen/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/verwaltung-buergeranfragen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/public-sector-citizen-enquiries/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/verwaltung-buergeranfragen/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/use-cases/public-sector-citizen-enquiries/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/verwaltung-buergeranfragen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/public-sector-citizen-enquiries/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/verwaltung-buergeranfragen/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/anwendungsfaelle/verwaltung-aemter/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/verwaltung-aemter/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/public-sector-departments/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/verwaltung-aemter/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/use-cases/public-sector-departments/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/verwaltung-aemter/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/public-sector-departments/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/verwaltung-aemter/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/anwendungsfaelle/stadtwerke-postfaecher/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/stadtwerke-postfaecher/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/utilities-mailbox-routing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/stadtwerke-postfaecher/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/use-cases/utilities-mailbox-routing/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/stadtwerke-postfaecher/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/utilities-mailbox-routing/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/stadtwerke-postfaecher/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/anwendungsfaelle/stadtwerke-stoerung/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/stadtwerke-stoerung/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/utilities-outages/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/stadtwerke-stoerung/"/>
+  </url>
+  <url>
+    <loc>https://cx.socialhub.io/en/use-cases/utilities-outages/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://cx.socialhub.io/anwendungsfaelle/stadtwerke-stoerung/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://cx.socialhub.io/en/use-cases/utilities-outages/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://cx.socialhub.io/anwendungsfaelle/stadtwerke-stoerung/"/>
+  </url>
+</urlset>

@@ -1,0 +1,119 @@
+# SocialHub CX
+
+> SocialHub CX ist eine Kundenservice-Software von SocialHub, einem Produkt der maloon GmbH aus Ingolstadt, mit der Service-Teams Anfragen aus Social Media und E-Mail als Tickets in einem gemeinsamen Workspace bearbeiten – unterstützt von einem KI-Co-Pilot mit Quellenangabe. Anbieter: maloon GmbH, Schütterlettenweg 4, 85053 Ingolstadt, Deutschland (Amtsgericht Ingolstadt, HR 5203).
+
+Stand: [TT.MM.JJJJ, beim Livegang setzen]. Sprachen: Deutsch (primär), Englisch. Markt: Deutschland, Österreich, Schweiz.
+
+## Fakten
+
+- Kategorie: Kundenservice-Software für Social Media und E-Mail. Ein Workspace mit zwei Modulen: E-Mail und Social.
+- E-Mail: Postfächer über Microsoft (OAuth) oder IMAP/SMTP; jede E-Mail wird ein Ticket mit Status, Priorität, Zuständigkeit und Tags.
+- Social: Kommentare, Direktnachrichten, Erwähnungen, Posts und Bewertungen aus verbundenen Social-Media-Profilen werden als Tickets behandelt. Anbindbar sind die Netzwerke, die SocialHub heute anbindet. WhatsApp als Kanal ist verfügbar.
+- KI-Co-Pilot für E-Mail- und Social-Tickets: entwirft Antworten, fasst Tickets zusammen und beantwortet Fragen aus der eigenen Wissensdatenbank; zeigt seine Quellen. Antworten werden von einem Menschen geprüft und gesendet; vorbereitete Entwürfe werden nie automatisch versendet.
+- Anmeldung über das SocialHub-Konto; Single Sign-on (SSO) ist verfügbar.
+- Routing je Postfach: zuerst Schlüsselwort-Regeln, sonst an Team, Person oder Round Robin; abwesende Mitarbeitende erhalten keine neu verteilten Tickets. Ziel für die Erstantwort in Geschäftsstunden.
+- Auswertungen: E-Mail-Dashboard (u. a. Median-Erstantwortzeit, verspätete Erstantworten, Lösungszeit) und Social-Dashboard (u. a. Antwortquote, Antwortzeit, Stimmung).
+- Sicherheit: SocialHub ist nach ISO/IEC 27001 zertifiziert. Hosting bei einem Anbieter mit BSI-C5-Testat; SocialHub selbst verfügt nicht über ein eigenes C5-Testat. Hosting in Deutschland, in Rechenzentren in Falkenstein und Nürnberg. Die KI von SocialHub CX läuft über Microsoft Azure mit EU-Endpunkt. SocialHub CX trainiert keine KI-Modelle mit Kundendaten.
+- Barrierefreiheit: SocialHub CX ist auf Barrierefreiheit nach BITV geprüft.
+- Datenschutz: Auftragsverarbeitung nach Art. 28 DSGVO zu denselben Bedingungen wie für die SocialHub-Plattform; AV-Vertrag auf Anfrage.
+- Preise: nicht öffentlich; Angebot auf Anfrage („Angebot anfordern“, „Pilot anfragen“).
+
+## Was SocialHub CX nicht ist
+
+- Kanäle: alle Social-Media-Netzwerke, die SocialHub anbindet, WhatsApp und E-Mail.
+- Kein Web-Chat oder Live-Chat, keine Web-Kontaktformulare.
+- Nicht enthalten: CRM-Integrationen, API/Webhooks, autonomer KI-Agent.
+
+## Seiten (Deutsch)
+
+- [SocialHub CX](https://cx.socialhub.io/): Überblick über die Kundenservice-Software für Social Media und E-Mail.
+- [Fakten](https://cx.socialhub.io/fakten/): geprüfte Kurzfakten zu Anbieter, Umfang, Abgrenzung und Sicherheit, mit Prüfdatum.
+- [Leistungsbeschreibung](https://cx.socialhub.io/leistungsbeschreibung/): ausführliche Beschreibung aller Funktionen und Grenzen, z. B. für Ausschreibungen.
+- [Funktionen](https://cx.socialhub.io/funktionen/): alle Funktionen im Überblick.
+- [E-Mail-Ticketing](https://cx.socialhub.io/funktionen/e-mail-ticketing/): Postfächer anbinden, Tickets, Vorlagen, Notizen, Eingangsbestätigung.
+- [Social-Inbox](https://cx.socialhub.io/funktionen/social-inbox/): Social-Media-Anfragen als Tickets mit Filtern nach Typ, Kanal und Zeitraum.
+- [KI-Co-Pilot](https://cx.socialhub.io/funktionen/ki-co-pilot/): Entwürfe aus der Wissensdatenbank mit Quellenangabe; der Mensch entscheidet.
+- [Routing und Teams](https://cx.socialhub.io/funktionen/routing-teams/): Schlüsselwort-Regeln, Round Robin, Erstantwort-Ziel, Ordner.
+- [Auswertungen](https://cx.socialhub.io/funktionen/auswertungen/): Kennzahlen für E-Mail- und Social-Service.
+- [Sicherheit und Datenschutz](https://cx.socialhub.io/sicherheit-datenschutz/): Anbieter, Hosting, ISO/IEC 27001, C5-Testat des Hosting-Anbieters, DSGVO, Barrierefreiheit, KI.
+- [Unterlagen für Einkauf & IT](https://cx.socialhub.io/unterlagen/): Unterlagen für Ausschreibungen und Sicherheitsprüfungen anfordern.
+- [FAQ](https://cx.socialhub.io/faq/): häufige Fragen zu Kanälen, KI, Hosting, Beschaffung und Leistungsumfang.
+- [Fragen und Antworten](https://cx.socialhub.io/fragen/): ausführliche Antworten auf echte Fragen aus Service-Teams, nach Themen.
+- [Hinweise für KI-Assistenten](https://cx.socialhub.io/ai-instructions/): wie SocialHub CX korrekt beschrieben wird.
+- [Demo anfragen](https://cx.socialhub.io/demo/) · [Pilot anfragen](https://cx.socialhub.io/pilot/) · [Angebot anfordern](https://cx.socialhub.io/angebot/) · [Kontakt](https://cx.socialhub.io/kontakt/): Kontakt; Anbieter ist die maloon GmbH (SocialHub), Ingolstadt.
+
+## Branchen und Anwendungsfälle (Deutsch)
+
+- [Branchen](https://cx.socialhub.io/branchen/): Überblick über ÖPNV, Handel/Loyalty, Banken/Versicherungen, Verwaltung und Stadtwerke.
+- [ÖPNV und Verkehr](https://cx.socialhub.io/branchen/oepnv/): Fahrgast-Anfragen aus Social Media und E-Mail, auch bei Störungen.
+- [Handel, Marken, Loyalty-Programme](https://cx.socialhub.io/branchen/handel-loyalty/): Kundenservice bei hohen Volumina aus Social Media und E-Mail.
+- [Banken und Versicherungen](https://cx.socialhub.io/branchen/banken-versicherungen/): digitaler Service mit deutschem Anbieter.
+- [Verwaltung und Kommunen](https://cx.socialhub.io/branchen/verwaltung/): Bürgeranfragen aus Social Media und E-Mail.
+- [Stadtwerke und Versorger](https://cx.socialhub.io/branchen/stadtwerke/): E-Mail-lastiger Kundenservice.
+- [Anwendungsfälle](https://cx.socialhub.io/anwendungsfaelle/): typische Abläufe je Branche, mit Fragen und Antworten (ÖPNV, Handel/Loyalty, Banken/Versicherungen, Verwaltung, Stadtwerke).
+  - [Anwendungsfälle ÖPNV und Verkehr](https://cx.socialhub.io/anwendungsfaelle/oepnv/): alle Anwendungsfälle des Segments im Überblick.
+  - [Anwendungsfälle Handel und Loyalty](https://cx.socialhub.io/anwendungsfaelle/handel-loyalty/): alle Anwendungsfälle des Segments im Überblick.
+  - [Anwendungsfälle Banken und Versicherungen](https://cx.socialhub.io/anwendungsfaelle/banken-versicherungen/): alle Anwendungsfälle des Segments im Überblick.
+  - [Anwendungsfälle Stadtwerke und Versorger](https://cx.socialhub.io/anwendungsfaelle/stadtwerke/): alle Anwendungsfälle des Segments im Überblick.
+  - [Anwendungsfälle Kommunen und Verwaltung](https://cx.socialhub.io/anwendungsfaelle/verwaltung/): alle Anwendungsfälle des Segments im Überblick.
+  - [Service-Postfächer nach Fachbereich verteilen](https://cx.socialhub.io/anwendungsfaelle/banken-postfaecher/): SocialHub CX für Banken und Versicherungen
+  - [Social-Media-Anfragen geordnet in den Service überführen](https://cx.socialhub.io/anwendungsfaelle/banken-social-service/): SocialHub CX für Banken
+  - [Anfragespitzen nach Aktionen und Kampagnen](https://cx.socialhub.io/anwendungsfaelle/handel-aktionsspitzen/): SocialHub CX für Handel
+  - [Bewertungen und Kommentare beantworten](https://cx.socialhub.io/anwendungsfaelle/handel-bewertungen/): SocialHub CX für Handel
+  - [Fragen zu Punkten, Prämien und Partnern](https://cx.socialhub.io/anwendungsfaelle/loyalty-programmfragen/): SocialHub CX für Loyalty-Programme
+  - [Fragen zu Abo, Deutschlandticket und Erstattung](https://cx.socialhub.io/anwendungsfaelle/oepnv-abo-erstattung/): SocialHub CX für ÖPNV
+  - [Lob und Beschwerden an Fachabteilungen übergeben](https://cx.socialhub.io/anwendungsfaelle/oepnv-lob-beschwerde/): SocialHub CX für ÖPNV
+  - [Störungsmeldungen auf Social Media und per E-Mail](https://cx.socialhub.io/anwendungsfaelle/oepnv-stoerungsmeldungen/): SocialHub CX für ÖPNV
+  - [Abschlag, Zählerstand und Umzug: E-Mails automatisch verteilen](https://cx.socialhub.io/anwendungsfaelle/stadtwerke-postfaecher/): SocialHub CX für Stadtwerke
+  - [Versorgungsstörung auf Social Media und per E-Mail](https://cx.socialhub.io/anwendungsfaelle/stadtwerke-stoerung/): SocialHub CX für Stadtwerke
+  - [Zuständigkeiten über Ämter hinweg klären](https://cx.socialhub.io/anwendungsfaelle/verwaltung-aemter/): SocialHub CX für Verwaltung
+  - [Bürgeranfragen aus Social Media und Postfächern zentral bearbeiten](https://cx.socialhub.io/anwendungsfaelle/verwaltung-buergeranfragen/): SocialHub CX für Verwaltung
+
+## English
+
+> SocialHub CX is customer service software by SocialHub, a product of maloon GmbH, Ingolstadt, Germany. Service teams handle requests from social media, WhatsApp and email as tickets in one shared workspace, supported by an AI co-pilot that shows its sources. AI runs on Microsoft Azure with an EU endpoint; SocialHub CX does not train AI models on customer data. SocialHub CX has been tested for accessibility according to BITV.
+
+- [SocialHub CX](https://cx.socialhub.io/en/): Overview.
+- [Facts](https://cx.socialhub.io/en/facts/): Verified key facts, scope, limits and security, with review date.
+- [Features](https://cx.socialhub.io/en/features/): All features.
+- [AI co-pilot](https://cx.socialhub.io/en/features/ai-copilot/): Drafts for email and social tickets from your knowledge base, with sources; never sent automatically.
+- [Social inbox](https://cx.socialhub.io/en/features/social-inbox/): Comments, direct messages, mentions and reviews from all SocialHub networks and WhatsApp as tickets in one workspace.
+- [Email ticketing](https://cx.socialhub.io/en/features/email-ticketing/): Connect mailboxes via Microsoft or IMAP/SMTP, route per mailbox, reply with templates and signatures.
+- [Routing, teams and ownership](https://cx.socialhub.io/en/features/routing-teams/): Keyword rules per mailbox, teams, round robin, away status, first-response targets.
+- [Analytics and dashboards](https://cx.socialhub.io/en/features/analytics/): First-response time, resolution time, backlog, team performance, Co-Pilot metrics, social dashboard with sentiment.
+- [Security and privacy](https://cx.socialhub.io/en/security-privacy/): SocialHub is ISO/IEC 27001 certified; hosted by a provider with a BSI C5 attestation; SocialHub itself does not hold its own C5 attestation. Hosted in Germany (Falkenstein, Nuremberg).
+- [Procurement pack](https://cx.socialhub.io/en/procurement-pack/): Documents for tenders and security reviews.
+- [Industries](https://cx.socialhub.io/en/industries/): Public transport, retail and loyalty, banking and insurance, public sector, utilities.
+  - [Public transport](https://cx.socialhub.io/en/industries/public-transport/): Passenger requests from social media, WhatsApp and email, including disruption peaks.
+  - [Retail and loyalty](https://cx.socialhub.io/en/industries/retail-loyalty/): Comments, reviews, WhatsApp and email, including campaign peaks.
+  - [Banks and insurers](https://cx.socialhub.io/en/industries/banking-insurance/): Social media and service mailboxes with an activity log per ticket and single sign-on.
+  - [Public sector](https://cx.socialhub.io/en/industries/public-sector/): Citizen requests from social media and email, routed to departments.
+  - [Utilities](https://cx.socialhub.io/en/industries/utilities/): Questions on instalments, bills and outages from several mailboxes and social media.
+- [Service description](https://cx.socialhub.io/en/service-description/): Full scope and limits, e.g. for tenders.
+- [Use cases](https://cx.socialhub.io/en/use-cases/): Typical workflows per industry, with questions and answers.
+  - [Use cases for public transport](https://cx.socialhub.io/en/use-cases/public-transport/): all use cases for this segment.
+  - [Use cases for retail and loyalty](https://cx.socialhub.io/en/use-cases/retail-loyalty/): all use cases for this segment.
+  - [Use cases for banks and insurers](https://cx.socialhub.io/en/use-cases/banking-insurance/): all use cases for this segment.
+  - [Use cases for utilities](https://cx.socialhub.io/en/use-cases/utilities/): all use cases for this segment.
+  - [Use cases for the public sector](https://cx.socialhub.io/en/use-cases/public-sector/): all use cases for this segment.
+  - [Routing service mailboxes by department](https://cx.socialhub.io/en/use-cases/banking-shared-mailboxes/): SocialHub CX for banks and insurers
+  - [Moving social media requests into service](https://cx.socialhub.io/en/use-cases/banking-social-service/): SocialHub CX for banks
+  - [Questions on points, rewards and partners](https://cx.socialhub.io/en/use-cases/loyalty-programme-questions/): SocialHub CX for loyalty programmes
+  - [Handling citizen requests from social media and mailboxes centrally](https://cx.socialhub.io/en/use-cases/public-sector-citizen-enquiries/): SocialHub CX for public administration
+  - [Clarifying responsibilities across departments](https://cx.socialhub.io/en/use-cases/public-sector-departments/): SocialHub CX for public administration
+  - [Disruption reports on social media and by email](https://cx.socialhub.io/en/use-cases/public-transport-disruptions/): SocialHub CX for public transport
+  - [Passing praise and complaints to departments](https://cx.socialhub.io/en/use-cases/public-transport-feedback-routing/): SocialHub CX for public transport
+  - [Questions on subscriptions, Deutschlandticket and refunds](https://cx.socialhub.io/en/use-cases/public-transport-subscriptions-refunds/): SocialHub CX for public transport
+  - [Request peaks after campaigns](https://cx.socialhub.io/en/use-cases/retail-campaign-peaks/): SocialHub CX for retail
+  - [Answering reviews and comments](https://cx.socialhub.io/en/use-cases/retail-reviews-comments/): SocialHub CX for retail
+  - [Instalments, meter readings and moves: routing emails automatically](https://cx.socialhub.io/en/use-cases/utilities-mailbox-routing/): SocialHub CX for utilities
+  - [Supply outage on social media and by email](https://cx.socialhub.io/en/use-cases/utilities-outages/): SocialHub CX for utilities
+- [FAQ](https://cx.socialhub.io/en/faq/): Frequently asked questions.
+- [Questions and answers](https://cx.socialhub.io/en/questions/): Detailed answers to real questions from service teams, by topic.
+- [Instructions for AI assistants](https://cx.socialhub.io/en/ai-instructions/): How to describe SocialHub CX correctly.
+- [Request a demo](https://cx.socialhub.io/en/demo/) · [Request a pilot](https://cx.socialhub.io/en/pilot/) · [Request a quote](https://cx.socialhub.io/en/quote/) · [Contact](https://cx.socialhub.io/en/contact/): Contact; the provider is maloon GmbH (SocialHub), Ingolstadt, Germany.
+
+## Unternehmen
+
+- [SocialHub Social-Media-Management](https://socialhub.io/): die Social-Media-Suite von SocialHub (eigenes Produkt).
+- Kontakt: hallo@socialhub.io
