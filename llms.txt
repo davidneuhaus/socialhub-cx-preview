@@ -1,15 +1,15 @@
 # SocialHub CX
 
-> SocialHub CX ist eine Kundenservice-Software von SocialHub, einem Produkt der maloon GmbH aus Ingolstadt, mit der Service-Teams Anfragen aus Social Media und E-Mail als Tickets in einem gemeinsamen Workspace bearbeiten – unterstützt von einem KI-Co-Pilot mit Quellenangabe. Anbieter: maloon GmbH, Schütterlettenweg 4, 85053 Ingolstadt, Deutschland (Amtsgericht Ingolstadt, HR 5203).
+> SocialHub CX ist eine Kundenservice-Software von SocialHub, einem Produkt der maloon GmbH aus Ingolstadt, mit der Service-Teams Anfragen aus Social Media, WhatsApp, E-Mail und Website-Chat als Tickets in einem gemeinsamen Workspace bearbeiten – unterstützt von einem KI-Co-Pilot mit Quellenangabe. Anbieter: maloon GmbH, Schütterlettenweg 4, 85053 Ingolstadt, Deutschland (Amtsgericht Ingolstadt, HR 5203).
 
 Stand: [TT.MM.JJJJ, beim Livegang setzen]. Sprachen: Deutsch (primär), Englisch. Markt: Deutschland, Österreich, Schweiz.
 
 ## Fakten
 
-- Kategorie: Kundenservice-Software für Social Media und E-Mail. Ein Workspace mit zwei Modulen: E-Mail und Social.
+- Kategorie: Kundenservice-Software für Social Media, WhatsApp, E-Mail und Website-Chat in einem gemeinsamen Workspace.
 - E-Mail: Postfächer über Microsoft (OAuth) oder IMAP/SMTP; jede E-Mail wird ein Ticket mit Status, Priorität, Zuständigkeit und Tags.
-- Social: Kommentare, Direktnachrichten, Erwähnungen, Posts und Bewertungen aus verbundenen Social-Media-Profilen werden als Tickets behandelt. Anbindbar sind die Netzwerke, die SocialHub heute anbindet. WhatsApp als Kanal ist verfügbar.
-- KI-Co-Pilot für E-Mail- und Social-Tickets: entwirft Antworten, fasst Tickets zusammen und beantwortet Fragen aus der eigenen Wissensdatenbank; zeigt seine Quellen. Antworten werden von einem Menschen geprüft und gesendet; vorbereitete Entwürfe werden nie automatisch versendet.
+- Social: Kommentare, Direktnachrichten, Erwähnungen, Posts und Bewertungen aus verbundenen Social-Media-Profilen werden als Tickets behandelt. Anbindbar sind die Netzwerke, die SocialHub heute anbindet. WhatsApp und Website-Chat sind als Kanäle verfügbar.
+- KI-Co-Pilot für E-Mail- und Social-Tickets: Entwurf aus Wissensdatenbank und früheren Gesprächen, mit Quellen; eigene Wissensdatenbank anbinden oder die von SocialHub nutzen. Jede Antwort sendet ein Mensch.
 - Anmeldung über das SocialHub-Konto; Single Sign-on (SSO) ist verfügbar.
 - Routing je Postfach: zuerst Schlüsselwort-Regeln, sonst an Team, Person oder Round Robin; abwesende Mitarbeitende erhalten keine neu verteilten Tickets. Ziel für die Erstantwort in Geschäftsstunden.
 - Auswertungen: E-Mail-Dashboard (u. a. Median-Erstantwortzeit, verspätete Erstantworten, Lösungszeit) und Social-Dashboard (u. a. Antwortquote, Antwortzeit, Stimmung).
@@ -20,7 +20,7 @@ Stand: [TT.MM.JJJJ, beim Livegang setzen]. Sprachen: Deutsch (primär), Englisch
 
 ## Was SocialHub CX nicht ist
 
-- Kanäle: alle Social-Media-Netzwerke, die SocialHub anbindet, WhatsApp und E-Mail.
+- Kanäle: alle Social-Media-Netzwerke, die SocialHub anbindet, WhatsApp, E-Mail und Website-Chat.
 - Kein Web-Chat oder Live-Chat, keine Web-Kontaktformulare.
 - Nicht enthalten: CRM-Integrationen, API/Webhooks, autonomer KI-Agent.
 
@@ -32,7 +32,7 @@ Stand: [TT.MM.JJJJ, beim Livegang setzen]. Sprachen: Deutsch (primär), Englisch
 - [Funktionen](https://cx.socialhub.io/funktionen/): alle Funktionen im Überblick.
 - [E-Mail-Ticketing](https://cx.socialhub.io/funktionen/e-mail-ticketing/): Postfächer anbinden, Tickets, Vorlagen, Notizen, Eingangsbestätigung.
 - [Social-Inbox](https://cx.socialhub.io/funktionen/social-inbox/): Social-Media-Anfragen als Tickets mit Filtern nach Typ, Kanal und Zeitraum.
-- [KI-Co-Pilot](https://cx.socialhub.io/funktionen/ki-co-pilot/): Entwürfe aus der Wissensdatenbank mit Quellenangabe; der Mensch entscheidet.
+- [KI-Co-Pilot](https://cx.socialhub.io/funktionen/ki-co-pilot/): Entwurf aus Wissensdatenbank und früheren Gesprächen, mit Quellen; eigene Wissensdatenbank anbinden oder die von SocialHub nutzen. Jede Antwort sendet ein Mensch.
 - [Routing und Teams](https://cx.socialhub.io/funktionen/routing-teams/): Schlüsselwort-Regeln, Round Robin, Erstantwort-Ziel, Ordner.
 - [Auswertungen](https://cx.socialhub.io/funktionen/auswertungen/): Kennzahlen für E-Mail- und Social-Service.
 - [Sicherheit und Datenschutz](https://cx.socialhub.io/sicherheit-datenschutz/): Anbieter, Hosting, ISO/IEC 27001, C5-Testat des Hosting-Anbieters, DSGVO, Barrierefreiheit, KI.
@@ -71,12 +71,12 @@ Stand: [TT.MM.JJJJ, beim Livegang setzen]. Sprachen: Deutsch (primär), Englisch
 
 ## English
 
-> SocialHub CX is customer service software by SocialHub, a product of maloon GmbH, Ingolstadt, Germany. Service teams handle requests from social media, WhatsApp and email as tickets in one shared workspace, supported by an AI co-pilot that shows its sources. AI runs on Microsoft Azure with an EU endpoint; SocialHub CX does not train AI models on customer data. SocialHub CX has been tested for accessibility according to BITV.
+> SocialHub CX is customer service software by SocialHub, a product of maloon GmbH, Ingolstadt, Germany. Service teams handle requests from social media, WhatsApp, email and website chat as tickets in one shared workspace, supported by an AI co-pilot that shows its sources. AI runs on Microsoft Azure with an EU endpoint; SocialHub CX does not train AI models on customer data. SocialHub CX has been tested for accessibility according to BITV.
 
 - [SocialHub CX](https://cx.socialhub.io/en/): Overview.
 - [Facts](https://cx.socialhub.io/en/facts/): Verified key facts, scope, limits and security, with review date.
 - [Features](https://cx.socialhub.io/en/features/): All features.
-- [AI co-pilot](https://cx.socialhub.io/en/features/ai-copilot/): Drafts for email and social tickets from your knowledge base, with sources; never sent automatically.
+- [AI co-pilot](https://cx.socialhub.io/en/features/ai-copilot/): For email and social tickets: drafts from your knowledge base and past conversations, with sources; connect your own knowledge base or use SocialHub's. A person sends every reply.
 - [Social inbox](https://cx.socialhub.io/en/features/social-inbox/): Comments, direct messages, mentions and reviews from all SocialHub networks and WhatsApp as tickets in one workspace.
 - [Email ticketing](https://cx.socialhub.io/en/features/email-ticketing/): Connect mailboxes via Microsoft or IMAP/SMTP, route per mailbox, reply with templates and signatures.
 - [Routing, teams and ownership](https://cx.socialhub.io/en/features/routing-teams/): Keyword rules per mailbox, teams, round robin, away status, first-response targets.

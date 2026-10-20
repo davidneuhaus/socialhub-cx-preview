@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260" aria-hidden="true" data-channels=""><defs><style>@media (prefers-reduced-motion:no-preference){
+.pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(1.6)}}
+.type{animation:r1 6s linear infinite}.type2{animation-name:r2}.type3{animation-name:r3}
+@keyframes r1{0%{opacity:.15}8%,90%{opacity:1}100%{opacity:.15}}
+@keyframes r2{0%,14%{opacity:.15}22%,90%{opacity:1}100%{opacity:.15}}
+@keyframes r3{0%,28%{opacity:.15}36%,90%{opacity:1}100%{opacity:.15}}
+.slaring{animation:sla 12s linear infinite}@keyframes sla{0%{stroke-dashoffset:0}100%{stroke-dashoffset:-60}}
+}</style><filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#1a1a1a" flood-opacity=".08"/></filter><clipPath id="win"><rect width="400" height="260" rx="16"/></clipPath></defs><g clip-path="url(#win)"><rect x="0.0" y="0.0" width="400.0" height="260.0" rx="16" fill="#f1f1f1"/>
+<rect x="40" y="26" width="320" height="208" rx="10" fill="#ffffff" filter="url(#sh)"/>
+<rect x="56.0" y="176.0" width="288.0" height="42.0" rx="10" fill="#ffffff" stroke="#e4e4e4" stroke-width="1"/>
+<g transform="translate(66,187) scale(1)" fill="none" stroke="#1a1a1a" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M13 3 7 17"/></g>
+<rect x="92.0" y="194.0" width="120.0" height="7.0" rx="3.5" fill="#cfcfcf"/>
+<rect x="56.0" y="42.0" width="220.0" height="122.0" rx="10" fill="#ffffff" stroke="#e4e4e4" stroke-width="1"/>
+<g transform="translate(70,56) scale(0.9)" fill="none" stroke="#5f6368" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2h8l4 4v12H4z"/><path d="M12 2v4h4"/></g>
+<rect x="96.0" y="59.0" width="120.0" height="7.0" rx="3.5" fill="#e3e3e3"/>
+<rect x="96.0" y="70.0" width="80.0" height="5.0" rx="2.5" fill="#ececec"/>
+<rect x="60.0" y="86.0" width="212.0" height="32.0" rx="8" fill="#f3f3f3"/>
+<g transform="translate(70,92) scale(0.9)" fill="none" stroke="#5f6368" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2h8l4 4v12H4z"/><path d="M12 2v4h4"/></g>
+<rect x="96.0" y="95.0" width="96.0" height="7.0" rx="3.5" fill="#cfcfcf"/>
+<rect x="96.0" y="106.0" width="56.0" height="5.0" rx="2.5" fill="#ececec"/>
+<g transform="translate(70,128) scale(0.9)" fill="none" stroke="#5f6368" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 2h8l4 4v12H4z"/><path d="M12 2v4h4"/></g>
+<rect x="96.0" y="131.0" width="140.0" height="7.0" rx="3.5" fill="#e3e3e3"/>
+<rect x="96.0" y="142.0" width="100.0" height="5.0" rx="2.5" fill="#ececec"/>
+<g stroke="#1a1a1a" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M300 100 L300 166"/><path d="M297.1 160.7 L300 166 L302.9 160.7"/></g></g></svg>

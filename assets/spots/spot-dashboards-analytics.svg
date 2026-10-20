@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260" aria-hidden="true" data-channels=""><defs><style>@media (prefers-reduced-motion:no-preference){
+.pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(1.6)}}
+.type{animation:r1 6s linear infinite}.type2{animation-name:r2}.type3{animation-name:r3}
+@keyframes r1{0%{opacity:.15}8%,90%{opacity:1}100%{opacity:.15}}
+@keyframes r2{0%,14%{opacity:.15}22%,90%{opacity:1}100%{opacity:.15}}
+@keyframes r3{0%,28%{opacity:.15}36%,90%{opacity:1}100%{opacity:.15}}
+.slaring{animation:sla 12s linear infinite}@keyframes sla{0%{stroke-dashoffset:0}100%{stroke-dashoffset:-60}}
+}</style><filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#1a1a1a" flood-opacity=".08"/></filter><clipPath id="win"><rect width="400" height="260" rx="16"/></clipPath></defs><g clip-path="url(#win)"><rect x="0.0" y="0.0" width="400.0" height="260.0" rx="16" fill="#f1f1f1"/>
+<rect x="24" y="26" width="170" height="112" rx="12" fill="#ffffff" filter="url(#sh)"/>
+<rect x="44" y="78" width="22" height="44" rx="5" fill="#d9d9d9" class="bar"/>
+<rect x="80" y="56" width="22" height="66" rx="5" fill="#bdbdbd" class="bar"/>
+<rect x="116" y="88" width="22" height="34" rx="5" fill="#d9d9d9" class="bar"/>
+<rect x="152" y="66" width="22" height="56" rx="5" fill="#d9d9d9" class="bar"/>
+<rect x="206" y="26" width="170" height="112" rx="12" fill="#ffffff" filter="url(#sh)"/>
+<path d="M291.0 50.0 A32 32 0 0 1 306.4 110.0" fill="none" stroke="#4b5563" stroke-width="13"/>
+<path d="M305.0 110.8 A32 32 0 0 1 259.3 86.4" fill="none" stroke="#9ca3af" stroke-width="13"/>
+<path d="M259.1 84.8 A32 32 0 0 1 294.2 50.2" fill="none" stroke="#d1d5db" stroke-width="13"/>
+<rect x="24" y="150" width="352" height="86" rx="12" fill="#ffffff" filter="url(#sh)"/>
+<path d="M44 210 C80 196 104 214 140 200 S200 182 236 196 S300 212 336 190 S356 186 360 188 V222 H44 Z" fill="#f2f2f2"/><path d="M44 210 C80 196 104 214 140 200 S200 182 236 196 S300 212 336 190 S356 186 360 188" fill="none" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round"/></g></svg>

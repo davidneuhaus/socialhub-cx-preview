@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260" aria-hidden="true" data-channels="em"><defs><style>@media (prefers-reduced-motion:no-preference){
+.pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(1.6)}}
+.type{animation:r1 6s linear infinite}.type2{animation-name:r2}.type3{animation-name:r3}
+@keyframes r1{0%{opacity:.15}8%,90%{opacity:1}100%{opacity:.15}}
+@keyframes r2{0%,14%{opacity:.15}22%,90%{opacity:1}100%{opacity:.15}}
+@keyframes r3{0%,28%{opacity:.15}36%,90%{opacity:1}100%{opacity:.15}}
+.slaring{animation:sla 12s linear infinite}@keyframes sla{0%{stroke-dashoffset:0}100%{stroke-dashoffset:-60}}
+}</style><filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#1a1a1a" flood-opacity=".08"/></filter><clipPath id="win"><rect width="400" height="260" rx="16"/></clipPath></defs><g clip-path="url(#win)"><rect x="0.0" y="0.0" width="400.0" height="260.0" rx="16" fill="#f1f1f1"/>
+<rect x="22" y="86" width="92" height="72" rx="12" fill="#ffffff" filter="url(#sh)"/>
+<rect x="54.0" y="100.0" width="28.0" height="28.0" rx="6" fill="#4b5563"/>
+<g transform="translate(54.0,100.0) scale(1.167)" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5.5" y="7.5" width="13" height="9" rx="1.5"/><path d="m6 8.5 6 4.5 6-4.5"/></g>
+<rect x="42.0" y="138.0" width="52.0" height="6.0" rx="3.0" fill="#e3e3e3"/>
+<circle cx="104" cy="96" r="4" fill="#6b3fd4" class="pulse"/>
+<g stroke="#9a9a9a" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M122 122 L146 122"/><path d="M140.7 124.9 L146 122 L140.7 119.1"/></g>
+<rect x="152" y="92" width="92" height="60" rx="12" fill="#fafafa" stroke="#cfcfcf" filter="url(#sh)"/>
+<g transform="translate(166,104) scale(1)" fill="none" stroke="#1a1a1a" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h16l-6.5 7.5V16l-3 1.5v-7z"/></g>
+<rect x="192.0" y="112.0" width="40.0" height="7.0" rx="3.5" fill="#cfcfcf"/>
+<rect x="166.0" y="132.0" width="64.0" height="6.0" rx="3.0" fill="#e3e3e3"/>
+<g stroke="#9a9a9a" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M250 108 L274 72"/><path d="M273.5 78.0 L274 72 L268.7 74.8"/></g>
+<g stroke="#9a9a9a" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M250 136 L274 170"/><path d="M268.6 167.4 L274 170 L273.3 164.0"/></g>
+<rect x="280" y="42" width="100" height="58" rx="12" fill="#1a1a1a" filter="url(#sh)"/>
+<g transform="translate(294,61) scale(1)" fill="none" stroke="#ffffff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="7" r="3"/><circle cx="14" cy="7" r="3"/><path d="M1.5 17a5.5 5.5 0 0 1 11 0M8.5 17a5.5 5.5 0 0 1 11 0"/></g>
+<rect x="324.0" y="66.0" width="40.0" height="7.0" rx="3.5" fill="#6b6b6b"/>
+<circle cx="372" cy="46" r="9" fill="#22c55e"/>
+<path d="M368.8 46.0 l2.4 2.4 l4.4 -4.8" fill="none" stroke="#ffffff" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="280" y="142" width="100" height="58" rx="12" fill="#ffffff" filter="url(#sh)"/>
+<g transform="translate(294,161) scale(1)" fill="none" stroke="#5f6368" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="7" r="3"/><circle cx="14" cy="7" r="3"/><path d="M1.5 17a5.5 5.5 0 0 1 11 0M8.5 17a5.5 5.5 0 0 1 11 0"/></g>
+<rect x="324.0" y="166.0" width="40.0" height="7.0" rx="3.5" fill="#e3e3e3"/></g></svg>

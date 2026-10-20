@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" width="400" height="260" aria-hidden="true" data-channels=""><defs><style>@media (prefers-reduced-motion:no-preference){
+.pulse{animation:pulse 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.35;transform:scale(1.6)}}
+.type{animation:r1 6s linear infinite}.type2{animation-name:r2}.type3{animation-name:r3}
+@keyframes r1{0%{opacity:.15}8%,90%{opacity:1}100%{opacity:.15}}
+@keyframes r2{0%,14%{opacity:.15}22%,90%{opacity:1}100%{opacity:.15}}
+@keyframes r3{0%,28%{opacity:.15}36%,90%{opacity:1}100%{opacity:.15}}
+.slaring{animation:sla 12s linear infinite}@keyframes sla{0%{stroke-dashoffset:0}100%{stroke-dashoffset:-60}}
+}</style><filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="2.5" flood-color="#1a1a1a" flood-opacity=".08"/></filter><clipPath id="win"><rect width="400" height="260" rx="16"/></clipPath></defs><g clip-path="url(#win)"><rect x="0.0" y="0.0" width="400.0" height="260.0" rx="16" fill="#f1f1f1"/>
+<rect x="30" y="30" width="340" height="200" rx="10" fill="#ffffff" filter="url(#sh)"/>
+<circle cx="104" cy="130" r="40" fill="none" stroke="#e8e8e8" stroke-width="9"/><circle cx="104" cy="130" r="40" fill="none" stroke="#2f6fd6" stroke-width="9" stroke-linecap="round" stroke-dasharray="155.8 251.3" transform="rotate(-90 104 130)" class="slaring"/><g fill="none" stroke="#2f6fd6" stroke-width="2.4" stroke-linecap="round"><path d="M104 114 v16 l11 7"/></g>
+<rect x="178.0" y="72.0" width="70.0" height="7.0" rx="3.5" fill="#cfcfcf"/>
+<rect x="178.0" y="85.0" width="50.0" height="6.0" rx="3.0" fill="#e3e3e3"/>
+<rect x="270.0" y="68.0" width="82.0" height="24.0" rx="12" fill="#e3eefc"/>
+<rect x="284.0" y="77.0" width="54.0" height="6.0" rx="3.0" fill="#1f4f9a55"/>
+<rect x="178.0" y="120.0" width="70.0" height="7.0" rx="3.5" fill="#cfcfcf"/>
+<rect x="178.0" y="133.0" width="50.0" height="6.0" rx="3.0" fill="#e3e3e3"/>
+<rect x="270.0" y="116.0" width="82.0" height="24.0" rx="12" fill="#fff1d6"/>
+<rect x="284.0" y="125.0" width="54.0" height="6.0" rx="3.0" fill="#7a4b0055"/>
+<rect x="178.0" y="168.0" width="70.0" height="7.0" rx="3.5" fill="#cfcfcf"/>
+<rect x="178.0" y="181.0" width="50.0" height="6.0" rx="3.0" fill="#e3e3e3"/>
+<rect x="270.0" y="164.0" width="82.0" height="24.0" rx="12" fill="#e2f5e8"/>
+<path d="M282.0 176.0 l3.0 3.0 l5.5 -6.0" fill="none" stroke="#1e6b3a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="298.0" y="173.0" width="40.0" height="6.0" rx="3.0" fill="#1e6b3a55"/></g></svg>
