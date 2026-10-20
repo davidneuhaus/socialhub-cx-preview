@@ -4,6 +4,40 @@
   var doc = document.documentElement;
   doc.classList.add("js");
 
+  /* ---------- Cross-page #anchors (19:30): land on the target once layout has settled ----------
+     The browser jumps to the fragment while fonts/lazy images may still change heights above it (Safari has no
+     scroll anchoring). After load (and fonts) re-align the target under the sticky header, unless the visitor has
+     already scrolled; a targeted <details> is opened. Instant jump, no animation. */
+  (function () {
+    var touched = false;
+    ["wheel", "touchstart", "keydown", "mousedown"].forEach(function (ev) {
+      window.addEventListener(ev, function () { touched = true; }, { passive: true, once: true });
+    });
+    function target() {
+      var id = location.hash.slice(1);
+      if (!id) return null;
+      try { id = decodeURIComponent(id); } catch (e) { return null; }
+      return document.getElementById(id);
+    }
+    function align() {
+      var el = target();
+      if (!el || touched) return;
+      if (el.tagName === "DETAILS") el.open = true;
+      var pad = parseFloat(getComputedStyle(doc).scrollPaddingTop) || 0;
+      var off = el.getBoundingClientRect().top - pad - (parseFloat(getComputedStyle(el).scrollMarginTop) || 0);
+      if (Math.abs(off) <= 2) return;
+      var y = window.pageYOffset + off;
+      try { window.scrollTo({ top: y, left: 0, behavior: "instant" }); } catch (e) { window.scrollTo(0, y); }
+    }
+    if (!location.hash) return;
+    window.addEventListener("load", function () {
+      align();
+      if (document.fonts && document.fonts.ready) document.fonts.ready.then(align);
+      setTimeout(align, 400);
+    });
+    window.addEventListener("hashchange", function () { var el = target(); if (el && el.tagName === "DETAILS") el.open = true; });
+  })();
+
   /* ---------- Mobile navigation ---------- */
   var toggle = document.querySelector(".nav-toggle");
   var nav = document.getElementById("site-nav");

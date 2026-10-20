@@ -33,7 +33,13 @@
 
 *,*::before,*::after{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;scroll-padding-top:calc(var(--header-h) + 1rem)}
-@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+/* anchor fix (19:30): smooth scrolling only once the user interacts on the page (focus-within). A global smooth
+   html scroll made the load-time #fragment jump animate across the whole page while layout was still settling,
+   so cross-page anchors (home tiles -> /funktionen/#x) could stop short in empty space. */
+@media (prefers-reduced-motion:no-preference){html:focus-within{scroll-behavior:smooth}}
+/* anchored sections land with their heading just under the sticky header, not after a full section padding of empty space */
+.section[id]{scroll-margin-top:calc(.75rem - var(--section-y))}
+.hero--simple+.section[id]{scroll-margin-top:calc(.75rem - var(--section-y) * .6)}
 body{margin:0;font-family:var(--font-sans);font-size:var(--text-base);line-height:1.5;color:var(--c-ink);background:var(--c-white);-webkit-font-smoothing:antialiased}
 img{max-width:100%;height:auto;display:block}
 a{color:inherit}
