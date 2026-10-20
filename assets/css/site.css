@@ -533,3 +533,11 @@ main h2+.table-wrap,main h2+.sources,main .section__head+.table-wrap{margin-top:
 /* hero EU-AI note (16:51): badge lives in the hero SVG; on small screens repeated as HTML (violet on lavender, never lemon) */
 .hero-ai-note{display:none}
 @media (max-width:600px){.hero-ai-note{display:flex;width:max-content;align-items:center;gap:.4rem;margin:.75rem auto 0;padding:.3rem .75rem;border-radius:var(--r-pill);background:#efe9ff;border:1px solid #d6c8ff;color:#6b3fd4;font-size:.8125rem;font-weight:600;line-height:1.2}}
+/* hero ambient glow (19:06): soft lavender light behind the home hero visual; transform/opacity only; static when reduced motion */
+.hero:has(img.scene[src*="scenes/hero-"]){position:relative;isolation:isolate;overflow:clip}
+.hero:has(img.scene[src*="scenes/hero-"])::before{content:"";position:absolute;z-index:-1;inset:35% -25% -15% -25%;background:radial-gradient(closest-side,rgba(214,200,255,.42),rgba(214,200,255,0));pointer-events:none}
+@media (min-width:1024px){.hero:has(img.scene[src*="scenes/hero-"])::before{inset:-15% -12% -15% 38%}}
+@media (prefers-reduced-motion:no-preference){
+  .hero:has(img.scene[src*="scenes/hero-"])::before{animation:heroAmbient 18s ease-in-out infinite;will-change:transform,opacity}
+  @keyframes heroAmbient{0%,100%{opacity:.7;transform:translate3d(0,0,0) scale(1)}50%{opacity:1;transform:translate3d(-3%,2%,0) scale(1.07)}}
+}
