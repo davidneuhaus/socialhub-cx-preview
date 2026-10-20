@@ -512,7 +512,8 @@ main h2+.table-wrap,main h2+.sources,main .section__head+.table-wrap{margin-top:
 .channels{list-style:none;padding:0;margin:1rem 0 0;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem .625rem;max-width:36rem}
 .channels li{display:flex;align-items:center}
 .channels img{display:block;width:24px;height:24px}
-.channels__more{font-size:var(--text-sm,.875rem);font-weight:600;color:var(--c-ink);padding:.125rem .625rem;border:1px solid var(--c-line);border-radius:var(--r-pill);background:var(--c-white);line-height:1.4}
+.channels__more{font-size:var(--text-sm,.875rem);font-weight:400;color:var(--c-muted);padding:0;border:0;border-radius:0;background:none;line-height:24px;white-space:nowrap}
+@media (max-width:639.98px){.channels{gap:.5rem .4375rem}}
 @media (min-width:1024px){.channels{flex-wrap:nowrap;max-width:none}}
 @media (max-width:639px){
   .hero__grid > div:first-child:has(.channels--hero-below-cta-mobile),.hero--simple .container:has(.channels--hero-below-cta-mobile){display:flex;flex-direction:column}
