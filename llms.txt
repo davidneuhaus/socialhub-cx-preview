@@ -12,6 +12,7 @@ Stand: [TT.MM.JJJJ, beim Livegang setzen]. Sprachen: Deutsch (primär), Englisch
 - KI-Co-Pilot für E-Mail- und Social-Tickets: Entwurf aus Wissensdatenbank und früheren Gesprächen, mit Quellen; eigene Wissensdatenbank anbinden oder die von SocialHub nutzen. Jede Antwort sendet ein Mensch.
 - Anmeldung über das SocialHub-Konto; Single Sign-on (SSO) ist verfügbar.
 - Routing je Postfach: zuerst Schlüsselwort-Regeln, sonst an Team, Person oder Round Robin; abwesende Mitarbeitende erhalten keine neu verteilten Tickets. Ziel für die Erstantwort in Geschäftsstunden.
+- Team-Ordner und Sichtbarkeit: Jedes Team hat eigene Ordner. Sie entscheiden, wer welche Anfragen sieht und bearbeitet.
 - Auswertungen: E-Mail-Dashboard (u. a. Median-Erstantwortzeit, verspätete Erstantworten, Lösungszeit) und Social-Dashboard (u. a. Antwortquote, Antwortzeit, Stimmung).
 - Sicherheit: SocialHub ist nach ISO/IEC 27001 zertifiziert. Hosting bei einem Anbieter mit BSI-C5-Testat; SocialHub selbst verfügt nicht über ein eigenes C5-Testat. Hosting in Deutschland, in Rechenzentren in Falkenstein und Nürnberg. Die KI von SocialHub CX läuft über Microsoft Azure mit EU-Endpunkt. SocialHub CX trainiert keine KI-Modelle mit Kundendaten.
 - Barrierefreiheit: SocialHub CX ist auf Barrierefreiheit nach BITV geprüft.
@@ -21,7 +22,6 @@ Stand: [TT.MM.JJJJ, beim Livegang setzen]. Sprachen: Deutsch (primär), Englisch
 ## Was SocialHub CX nicht ist
 
 - Kanäle: alle Social-Media-Netzwerke, die SocialHub anbindet, WhatsApp, E-Mail und Website-Chat.
-- Kein Web-Chat oder Live-Chat, keine Web-Kontaktformulare.
 - Nicht enthalten: CRM-Integrationen, API/Webhooks, autonomer KI-Agent.
 
 ## Seiten (Deutsch)
@@ -33,7 +33,7 @@ Stand: [TT.MM.JJJJ, beim Livegang setzen]. Sprachen: Deutsch (primär), Englisch
 - [E-Mail-Ticketing](https://cx.socialhub.io/funktionen/e-mail-ticketing/): Postfächer anbinden, Tickets, Vorlagen, Notizen, Eingangsbestätigung.
 - [Social-Inbox](https://cx.socialhub.io/funktionen/social-inbox/): Social-Media-Anfragen als Tickets mit Filtern nach Typ, Kanal und Zeitraum.
 - [KI-Co-Pilot](https://cx.socialhub.io/funktionen/ki-co-pilot/): Entwurf aus Wissensdatenbank und früheren Gesprächen, mit Quellen; eigene Wissensdatenbank anbinden oder die von SocialHub nutzen. Jede Antwort sendet ein Mensch.
-- [Routing und Teams](https://cx.socialhub.io/funktionen/routing-teams/): Schlüsselwort-Regeln, Round Robin, Erstantwort-Ziel, Ordner.
+- [Routing und Teams](https://cx.socialhub.io/funktionen/routing-teams/): Team-Ordner und Sichtbarkeit (Sie entscheiden, wer welche Anfragen sieht und bearbeitet), Schlüsselwort-Regeln, Round Robin, Erstantwort-Ziel.
 - [Auswertungen](https://cx.socialhub.io/funktionen/auswertungen/): Kennzahlen für E-Mail- und Social-Service.
 - [Sicherheit und Datenschutz](https://cx.socialhub.io/sicherheit-datenschutz/): Anbieter, Hosting, ISO/IEC 27001, C5-Testat des Hosting-Anbieters, DSGVO, Barrierefreiheit, KI.
 - [Unterlagen für Einkauf & IT](https://cx.socialhub.io/unterlagen/): Unterlagen für Ausschreibungen und Sicherheitsprüfungen anfordern.
@@ -79,7 +79,7 @@ Stand: [TT.MM.JJJJ, beim Livegang setzen]. Sprachen: Deutsch (primär), Englisch
 - [AI co-pilot](https://cx.socialhub.io/en/features/ai-copilot/): For email and social tickets: drafts from your knowledge base and past conversations, with sources; connect your own knowledge base or use SocialHub's. A person sends every reply.
 - [Social inbox](https://cx.socialhub.io/en/features/social-inbox/): Comments, direct messages, mentions and reviews from all SocialHub networks and WhatsApp as tickets in one workspace.
 - [Email ticketing](https://cx.socialhub.io/en/features/email-ticketing/): Connect mailboxes via Microsoft or IMAP/SMTP, route per mailbox, reply with templates and signatures.
-- [Routing, teams and ownership](https://cx.socialhub.io/en/features/routing-teams/): Keyword rules per mailbox, teams, round robin, away status, first-response targets.
+- [Routing, teams and ownership](https://cx.socialhub.io/en/features/routing-teams/): Team folders and visibility (you decide who sees and handles which requests), keyword rules per mailbox, round robin, away status, first-response targets.
 - [Analytics and dashboards](https://cx.socialhub.io/en/features/analytics/): First-response time, resolution time, backlog, team performance, Co-Pilot metrics, social dashboard with sentiment.
 - [Security and privacy](https://cx.socialhub.io/en/security-privacy/): SocialHub is ISO/IEC 27001 certified; hosted by a provider with a BSI C5 attestation; SocialHub itself does not hold its own C5 attestation. Hosted in Germany (Falkenstein, Nuremberg).
 - [Procurement pack](https://cx.socialhub.io/en/procurement-pack/): Documents for tenders and security reviews.
