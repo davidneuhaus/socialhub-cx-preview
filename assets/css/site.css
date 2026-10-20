@@ -482,3 +482,6 @@ main h2+.table-wrap,main h2+.sources,main .section__head+.table-wrap{margin-top:
 .logo-strip--real li{display:flex;align-items:center}
 .logo-strip--real img{display:block;max-width:100%;height:auto}
 @media (max-width:639px){.logo-strip--real{gap:1.5rem 2rem}.logo-strip--real img{zoom:.85}}
+.logo-strip--real{justify-content:flex-start}
+.logos .form-micro{margin-top:1.25rem}
+@media (max-width:639px){.logo-strip--real{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));justify-items:center;gap:1.5rem 1rem}}
