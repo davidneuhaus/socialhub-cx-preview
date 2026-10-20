@@ -507,3 +507,16 @@ main h2+.table-wrap,main h2+.sources,main .section__head+.table-wrap{margin-top:
   .fcard h3{font-size:.9375rem;line-height:1.25;hyphens:auto;-webkit-hyphens:auto;overflow-wrap:normal;word-break:normal}
   .fcard p{font-size:.8125rem;line-height:1.4;hyphens:auto;-webkit-hyphens:auto}
 }
+
+/* ---- positioning pass (20.10. 14:38): hero channel row (icons only, sr-only names) */
+.channels{list-style:none;padding:0;margin:1rem 0 0;display:flex;flex-wrap:wrap;align-items:center;gap:.5rem .625rem;max-width:36rem}
+.channels li{display:flex;align-items:center}
+.channels img{display:block;width:24px;height:24px}
+.channels__more{font-size:var(--text-sm,.875rem);font-weight:600;color:var(--c-ink);padding:.125rem .625rem;border:1px solid var(--c-line);border-radius:var(--r-pill);background:var(--c-white);line-height:1.4}
+@media (min-width:1024px){.channels{flex-wrap:nowrap;max-width:none}}
+@media (max-width:639px){
+  .hero__grid > div:first-child:has(.channels--hero-below-cta-mobile),.hero--simple .container:has(.channels--hero-below-cta-mobile){display:flex;flex-direction:column}
+  .hero .channels--hero-below-cta-mobile ~ .cta-row{order:1}
+  .hero .channels--hero-below-cta-mobile{order:2}
+  .hero .channels--hero-below-cta-mobile ~ .cta-row ~ *{order:3}
+}
